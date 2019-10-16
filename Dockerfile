@@ -1,4 +1,4 @@
-FROM nginx:1.15.6
+FROM nginx:1.15.6-alpine
 # Modify timezone
 ENV TZ=Asia/Shanghai
 # Add mirror source
